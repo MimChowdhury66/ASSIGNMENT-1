@@ -57,7 +57,7 @@ nav  ul  li a{
 .flexible-container{
    
     display: flex;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
     padding-left: 3%;
 
 }
@@ -85,6 +85,8 @@ nav  ul  li a{
     font-weight: 600;
     text-shadow:cyan;
     border-radius: 30px;
+   
+    
 }
 
 .banner{
@@ -102,4 +104,16 @@ nav  ul  li a{
 }
 .banner h1{
     text-align: center;
+    padding-top:7%;
+
+    
+}
+.banner h6{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 70%;
+}
+.banner a{
+    margin-left: 30%;
 }
