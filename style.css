@@ -2,8 +2,12 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
-
+.menubar{
+    display: flex;
+    margin-bottom: 60px;
+}
    
 nav {
     position:fixed;
@@ -45,4 +49,40 @@ nav  ul  li a{
     border-radius: 6px
 
 }
+.orange-color{
+    color:orange;
+    
+}
 
+.flexible-container{
+   
+    display: flex;
+    margin-bottom: 150px;
+    padding-left: 3%;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+
+}
+.half-width h1{
+    font-family: 'Otomanopee One', sans-serif;
+}
+.half-width p{
+    font-size: 1px;
+    font-weight: 10px;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none ;
+    background-image:linear-gradient(orange, tomato);
+    padding: 20px  40px;
+    color: white;
+    font-size: 70%;
+    font-weight: 600;
+    text-shadow:cyan;
+    border-radius: 30px;
+}
